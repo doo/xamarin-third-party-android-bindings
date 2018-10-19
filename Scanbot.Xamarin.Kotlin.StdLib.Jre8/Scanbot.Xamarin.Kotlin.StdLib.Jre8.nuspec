@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+
+  <metadata>
+    <id>Scanbot.Xamarin.Kotlin.StdLib.Jre8</id>
+    <version>1.2.50</version>
+    <title>Kotlin Standard Library JRE 8 extension for Xamarin.Android</title>
+    <description>Xamarin.Android binding for Kotlin Standard Library JRE 8 extension</description>
+    <authors>Scanbot</authors>
+    <owners>Scanbot</owners>
+    <projectUrl>https://github.com/doo/xamarin-third-party-android-bindings</projectUrl>
+    <iconUrl>https://scanbot.io/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright 2018 doo GmbH</copyright>
+    <dependencies>
+      <dependency id="Scanbot.Xamarin.Kotlin.StdLib.Jre7" version="1.2.50" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="bin/Release/Scanbot.Xamarin.Kotlin.StdLib.Jre8.dll" target="lib/MonoAndroid81" />
+    <file src="THIRD-PARTY-NOTICES.txt" target="THIRD-PARTY-NOTICES.txt" />
+  </files>
+
+</package>
