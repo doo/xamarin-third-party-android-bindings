@@ -9,7 +9,6 @@
     <authors>Scanbot</authors>
     <owners>Scanbot</owners>
     <projectUrl>https://github.com/doo/xamarin-third-party-android-bindings</projectUrl>
-    <iconUrl>https://scanbot.io/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright 2018 doo GmbH</copyright>
   </metadata>
