@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05D52CF4-7F2A-4B9E-AE36-A1C24C12248D}</ProjectGuid>
+    <ProjectGuid>{4FDCE371-2F29-4BA4-8BC8-523A8345020A}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Scanbot.Xamarin.Kotlin.StdLib</RootNamespace>
-    <AssemblyName>Scanbot.Xamarin.Kotlin.StdLib</AssemblyName>
+    <RootNamespace>Scanbot.Xamarin.Kotlin.StdLib.Common</RootNamespace>
+    <AssemblyName>Scanbot.Xamarin.Kotlin.StdLib.Common</AssemblyName>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -55,13 +55,7 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\kotlin-stdlib-1.2.50.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Scanbot.Xamarin.Kotlin.StdLib.Common\Scanbot.Xamarin.Kotlin.StdLib.Common.csproj">
-      <Project>{4FDCE371-2F29-4BA4-8BC8-523A8345020A}</Project>
-      <Name>Scanbot.Xamarin.Kotlin.StdLib.Common</Name>
-    </ProjectReference>
+    <EmbeddedReferenceJar Include="Jars\kotlin-stdlib-common-1.2.50.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

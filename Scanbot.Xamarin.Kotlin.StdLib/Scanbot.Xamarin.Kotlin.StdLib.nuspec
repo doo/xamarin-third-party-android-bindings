@@ -15,6 +15,7 @@
 
   <files>
     <file src="bin/Release/Scanbot.Xamarin.Kotlin.StdLib.dll" target="lib/MonoAndroid81" />
+    <file src="bin/Release/Scanbot.Xamarin.Kotlin.StdLib.Common.dll" target="lib/MonoAndroid81" />
     <file src="THIRD-PARTY-NOTICES.txt" target="THIRD-PARTY-NOTICES.txt" />
   </files>
 
