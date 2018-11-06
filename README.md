@@ -13,3 +13,10 @@ Current list of published bindings as NuGet packages:
 This repo is **not about** bindings for the [Scanbot SDK](https://scanbot.io/sdk.html).
 
 You can find the bindings for the Scanbot SDK for Xamarin as an universal NuGet package here: [`ScanbotSDK.Xamarin`](https://www.nuget.org/packages/ScanbotSDK.Xamarin/)
+
+
+## License
+
+The license for this repository is specified in the [LICENSE.md](LICENSE.md) file.
+
+For licenses of third-party libraries please see the `THIRD-PARTY-NOTICES.txt` files in corresponding folders.
