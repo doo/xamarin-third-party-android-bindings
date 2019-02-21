@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{534D40CA-DC39-48B0-963C-301F8BD12006}</ProjectGuid>
+    <ProjectGuid>{904C1355-8463-47D2-9537-52E67F549571}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Scanbot.Xamarin.Kotlin.StdLib.Jre8</RootNamespace>
-    <AssemblyName>Scanbot.Xamarin.Kotlin.StdLib.Jre8</AssemblyName>
+    <RootNamespace>Scanbot.Xamarin.JetBrains.Java.Annotations</RootNamespace>
+    <AssemblyName>Scanbot.Xamarin.JetBrains.Java.Annotations</AssemblyName>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -54,7 +54,7 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\kotlin-stdlib-jre8-1.2.50.jar" />
+    <EmbeddedReferenceJar Include="Jars\annotations-13.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
