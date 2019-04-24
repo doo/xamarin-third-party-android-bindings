@@ -37,8 +37,14 @@ https://github.com/JetBrains/kotlin/blob/87cdc7635ac085026fde546d4ad4ebc2d43e68f
 
 ------------
 
-Kotlin Standard Library - License
+Kotlin Standard Library
 https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib/1.3.11
+
+Kotlin Standard Library JDK 7
+https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11
+
+Kotlin Standard Library JDK 8
+https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.11
 
 
                                  Apache License

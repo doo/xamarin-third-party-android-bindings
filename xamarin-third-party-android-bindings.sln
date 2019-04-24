@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.JetBrains.Java.Annotations", "Scanbot.Xamarin.JetBrains.Java.Annotations\Scanbot.Xamarin.JetBrains.Java.Annotations.csproj", "{904C1355-8463-47D2-9537-52E67F549571}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdLib.Jdk7", "Scanbot.Xamarin.Kotlin.StdLib.Jdk7\Scanbot.Xamarin.Kotlin.StdLib.Jdk7.csproj", "{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdLib.Jdk8", "Scanbot.Xamarin.Kotlin.StdLib.Jdk8\Scanbot.Xamarin.Kotlin.StdLib.Jdk8.csproj", "{46D75F3C-4940-4136-9822-A3878EF36F8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,5 +41,13 @@ Global
 		{904C1355-8463-47D2-9537-52E67F549571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{904C1355-8463-47D2-9537-52E67F549571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{904C1355-8463-47D2-9537-52E67F549571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D75F3C-4940-4136-9822-A3878EF36F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D75F3C-4940-4136-9822-A3878EF36F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D75F3C-4940-4136-9822-A3878EF36F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D75F3C-4940-4136-9822-A3878EF36F8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

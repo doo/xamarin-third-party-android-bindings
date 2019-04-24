@@ -17,6 +17,8 @@ mkdir -p $NUGET_DIST_TARGET_DIR
 nuget pack Scanbot.Xamarin.Kotlin.StdLib/Scanbot.Xamarin.Kotlin.StdLib.nuspec -OutputDirectory $NUGET_DIST_TARGET_DIR
 nuget pack Scanbot.Xamarin.Kotlin.StdLib.Jre7/Scanbot.Xamarin.Kotlin.StdLib.Jre7.nuspec -OutputDirectory $NUGET_DIST_TARGET_DIR
 nuget pack Scanbot.Xamarin.Kotlin.StdLib.Jre8/Scanbot.Xamarin.Kotlin.StdLib.Jre8.nuspec -OutputDirectory $NUGET_DIST_TARGET_DIR
+nuget pack Scanbot.Xamarin.Kotlin.StdLib.Jdk7/Scanbot.Xamarin.Kotlin.StdLib.Jdk7.nuspec -OutputDirectory $NUGET_DIST_TARGET_DIR
+nuget pack Scanbot.Xamarin.Kotlin.StdLib.Jdk8/Scanbot.Xamarin.Kotlin.StdLib.Jdk8.nuspec -OutputDirectory $NUGET_DIST_TARGET_DIR
 nuget pack Scanbot.Xamarin.JetBrains.Java.Annotations/Scanbot.Xamarin.JetBrains.Java.Annotations.nuspec -OutputDirectory $NUGET_DIST_TARGET_DIR
 
 echo "NuGet results:"
