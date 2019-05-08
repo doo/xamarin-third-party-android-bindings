@@ -4,6 +4,8 @@ This repo contains Xamarin.Android bindings for some **third-party** Android lib
 
 Current list of published bindings as NuGet packages:
 - [Scanbot.Xamarin.Kotlin.StdLib](https://www.nuget.org/packages/Scanbot.Xamarin.Kotlin.StdLib/)
+- [Scanbot.Xamarin.Kotlin.StdLib.Jdk7](https://www.nuget.org/packages/Scanbot.Xamarin.Kotlin.StdLib.Jdk7/)
+- [Scanbot.Xamarin.Kotlin.StdLib.Jdk8](https://www.nuget.org/packages/Scanbot.Xamarin.Kotlin.StdLib.Jdk8/)
 - [Scanbot.Xamarin.Kotlin.StdLib.Jre7](https://www.nuget.org/packages/Scanbot.Xamarin.Kotlin.StdLib.Jre7/)
 - [Scanbot.Xamarin.Kotlin.StdLib.Jre8](https://www.nuget.org/packages/Scanbot.Xamarin.Kotlin.StdLib.Jre8/)
 - [Scanbot.Xamarin.JetBrains.Java.Annotations](https://www.nuget.org/packages/Scanbot.Xamarin.JetBrains.Java.Annotations/)
