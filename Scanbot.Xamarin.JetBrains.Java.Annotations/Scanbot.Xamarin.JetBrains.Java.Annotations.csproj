@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Scanbot.Xamarin.JetBrains.Java.Annotations</RootNamespace>
     <AssemblyName>Scanbot.Xamarin.JetBrains.Java.Annotations</AssemblyName>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidClassParser>class-parse</AndroidClassParser>

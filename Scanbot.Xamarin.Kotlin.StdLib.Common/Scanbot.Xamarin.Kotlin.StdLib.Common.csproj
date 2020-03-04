@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Scanbot.Xamarin.Kotlin.StdLib.Common</RootNamespace>
     <AssemblyName>Scanbot.Xamarin.Kotlin.StdLib.Common</AssemblyName>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidClassParser>class-parse</AndroidClassParser>
