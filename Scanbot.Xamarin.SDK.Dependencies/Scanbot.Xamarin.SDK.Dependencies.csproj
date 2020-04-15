@@ -57,6 +57,11 @@
     <EmbeddedJar Include="Jars\commons-io-2.4.jar" />
     <EmbeddedJar Include="Jars\dagger-2.16.jar" />
     <EmbeddedJar Include="Jars\javax.inject-1.jar" />
+    <EmbeddedJar Include="Jars\moshi-1.8.0.jar" />
+    <EmbeddedJar Include="Jars\moshi-adapters-1.8.0.jar" />
+    <EmbeddedJar Include="Jars\moshi-kotlin-1.8.0.jar" />
+    <EmbeddedJar Include="Jars\kotlin-reflect-1.2.71.jar" />
+    <EmbeddedJar Include="Jars\okio-1.16.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
