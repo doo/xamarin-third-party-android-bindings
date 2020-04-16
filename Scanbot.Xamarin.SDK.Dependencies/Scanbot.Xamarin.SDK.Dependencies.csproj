@@ -62,6 +62,7 @@
     <EmbeddedJar Include="Jars\moshi-kotlin-1.8.0.jar" />
     <EmbeddedJar Include="Jars\kotlin-reflect-1.2.71.jar" />
     <EmbeddedJar Include="Jars\okio-1.16.0.jar" />
+    <EmbeddedJar Include="Jars\apwlibrary-1.0.8.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
