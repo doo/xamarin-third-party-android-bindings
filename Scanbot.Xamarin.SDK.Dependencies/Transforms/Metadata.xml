@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
     <remove-node path="/api/package[starts-with(@name, 'org.apache.commons.io')]" />
+    <remove-node path="/api/package[starts-with(@name, 'org.apache.commons.lang')]" />
     <remove-node path="/api/package[starts-with(@name, 'dagger.internal')]" />
     <remove-node path="/api/package[starts-with(@name, 'kotlin')]" />
     <remove-node path="/api/package[starts-with(@name, 'com.squareup.moshi')]" />
