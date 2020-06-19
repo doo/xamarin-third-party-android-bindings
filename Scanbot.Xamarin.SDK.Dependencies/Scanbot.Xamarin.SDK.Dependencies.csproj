@@ -64,6 +64,7 @@
     <EmbeddedJar Include="Jars\okio-1.16.0.jar" />
     <EmbeddedJar Include="Jars\apwlibrary-1.0.8.jar" />
     <EmbeddedJar Include="Jars\commons-lang-2.6.jar" />
+    <EmbeddedJar Include="Jars\gson-2.8.5.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
