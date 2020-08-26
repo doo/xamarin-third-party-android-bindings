@@ -57,14 +57,20 @@
     <EmbeddedJar Include="Jars\commons-io-2.4.jar" />
     <EmbeddedJar Include="Jars\dagger-2.16.jar" />
     <EmbeddedJar Include="Jars\javax.inject-1.jar" />
-    <EmbeddedJar Include="Jars\moshi-1.8.0.jar" />
-    <EmbeddedJar Include="Jars\moshi-adapters-1.8.0.jar" />
-    <EmbeddedJar Include="Jars\moshi-kotlin-1.8.0.jar" />
     <EmbeddedJar Include="Jars\kotlin-reflect-1.2.71.jar" />
     <EmbeddedJar Include="Jars\okio-1.16.0.jar" />
     <EmbeddedJar Include="Jars\apwlibrary-1.0.8.jar" />
     <EmbeddedJar Include="Jars\commons-lang-2.6.jar" />
     <EmbeddedJar Include="Jars\gson-2.8.5.jar" />
+    <EmbeddedJar Include="Jars\kotlin-stdlib-1.4.0.jar" />
+    <EmbeddedJar Include="Jars\kotlin-stdlib-common-1.4.0.jar" />
+    <EmbeddedJar Include="Jars\kotlin-stdlib-jdk7-1.4.0.jar" />
+    <EmbeddedJar Include="Jars\kotlin-stdlib-jdk8-1.4.0.jar" />
+    <EmbeddedJar Include="Jars\kotlinx-coroutines-android-1.3.0.jar" />
+    <EmbeddedJar Include="Jars\kotlinx-coroutines-core-1.3.0.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\dynamicanimation-1.0.0.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
