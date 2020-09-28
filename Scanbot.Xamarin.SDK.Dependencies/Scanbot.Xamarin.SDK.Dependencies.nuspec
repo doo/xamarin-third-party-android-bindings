@@ -3,7 +3,7 @@
 
   <metadata>
     <id>Scanbot.Xamarin.SDK.Dependencies</id>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
     <title>Scanbot SDK Dependencies</title>
     <description>A collection of dependencies required by Scanbot SDK and Scanbot Barcode Scanner SDK (not meant to be used as a separate NuGet package)</description>
     <authors>Scanbot</authors>

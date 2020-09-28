@@ -5,6 +5,5 @@
     <remove-node path="/api/package[starts-with(@name, 'dagger.internal')]" />
     <remove-node path="/api/package[starts-with(@name, 'kotlin')]" />
     <remove-node path="/api/package[starts-with(@name, 'com.squareup.moshi')]" />
-    <remove-node path="/api/package[starts-with(@name, 'okio')]" />
     <remove-node path="/api/package[starts-with(@name, 'com.google.gson')]" />
 </metadata>
