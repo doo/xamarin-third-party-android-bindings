@@ -61,10 +61,6 @@
     <EmbeddedJar Include="Jars\apwlibrary-1.0.8.jar" />
     <EmbeddedJar Include="Jars\commons-lang-2.6.jar" />
     <EmbeddedJar Include="Jars\gson-2.8.5.jar" />
-    <EmbeddedJar Include="Jars\kotlin-stdlib-1.4.0.jar" />
-    <EmbeddedJar Include="Jars\kotlin-stdlib-common-1.4.0.jar" />
-    <EmbeddedJar Include="Jars\kotlin-stdlib-jdk7-1.4.0.jar" />
-    <EmbeddedJar Include="Jars\kotlin-stdlib-jdk8-1.4.0.jar" />
     <EmbeddedJar Include="Jars\kotlinx-coroutines-android-1.3.0.jar" />
     <EmbeddedJar Include="Jars\kotlinx-coroutines-core-1.3.0.jar" />
   </ItemGroup>
