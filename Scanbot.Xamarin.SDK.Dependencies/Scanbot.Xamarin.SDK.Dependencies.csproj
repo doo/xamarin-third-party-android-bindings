@@ -55,7 +55,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\commons-io-2.4.jar" />
-    <EmbeddedJar Include="Jars\dagger-2.16.jar" />
     <EmbeddedJar Include="Jars\javax.inject-1.jar" />
     <EmbeddedJar Include="Jars\kotlin-reflect-1.2.71.jar" />
     <EmbeddedJar Include="Jars\apwlibrary-1.0.8.jar" />
