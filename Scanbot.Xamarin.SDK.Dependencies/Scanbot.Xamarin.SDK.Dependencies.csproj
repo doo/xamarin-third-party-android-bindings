@@ -64,7 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <LibraryProjectZip Include="Jars\dynamicanimation-1.0.0.aar" />
-    <LibraryProjectZip Include="Jars\apwlibrary-1.0.9.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Scanbot.Xamarin.ApwLibrary\Scanbot.Xamarin.ApwLibrary.csproj">
+      <Project>{6CE3BF18-C124-431C-BD3E-ECF202956934}</Project>
+      <Name>Scanbot.Xamarin.ApwLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

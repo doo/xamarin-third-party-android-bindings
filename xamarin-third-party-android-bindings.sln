@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.SDK.Dependencies", "Scanbot.Xamarin.SDK.Dependencies\Scanbot.Xamarin.SDK.Dependencies.csproj", "{8AE48B58-9216-4CFA-AF86-F7F374104196}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.ApwLibrary", "Scanbot.Xamarin.ApwLibrary\Scanbot.Xamarin.ApwLibrary.csproj", "{6CE3BF18-C124-431C-BD3E-ECF202956934}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,5 +57,9 @@ Global
 		{8AE48B58-9216-4CFA-AF86-F7F374104196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE48B58-9216-4CFA-AF86-F7F374104196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE48B58-9216-4CFA-AF86-F7F374104196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE3BF18-C124-431C-BD3E-ECF202956934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE3BF18-C124-431C-BD3E-ECF202956934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE3BF18-C124-431C-BD3E-ECF202956934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE3BF18-C124-431C-BD3E-ECF202956934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
