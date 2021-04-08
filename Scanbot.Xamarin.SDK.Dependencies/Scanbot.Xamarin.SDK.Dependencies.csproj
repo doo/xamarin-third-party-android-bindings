@@ -63,9 +63,6 @@
     <EmbeddedJar Include="Jars\kotlinx-coroutines-core-1.3.0.jar" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\dynamicanimation-1.0.0.aar" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Scanbot.Xamarin.ApwLibrary\Scanbot.Xamarin.ApwLibrary.csproj">
       <Project>{6CE3BF18-C124-431C-BD3E-ECF202956934}</Project>
       <Name>Scanbot.Xamarin.ApwLibrary</Name>
