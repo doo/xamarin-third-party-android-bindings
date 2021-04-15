@@ -3,7 +3,7 @@
 
   <metadata>
     <id>Scanbot.Xamarin.SDK.Dependencies</id>
-    <version>3.3.0</version>
+    <version>3.3.1</version>
     <title>Scanbot SDK Dependencies</title>
     <description>A collection of dependencies required by Scanbot SDK and Scanbot Barcode Scanner SDK (not meant to be used as a separate NuGet package)</description>
     <authors>Scanbot</authors>
@@ -13,24 +13,24 @@
     <copyright>Copyright 2020 doo GmbH</copyright>
     <dependencies>
       <group targetFramework="MonoAndroid81">
-        
-        <dependency id="Xamarin.AndroidX.Core"                       version="1.2.0.1"/>
-        <dependency id="Xamarin.AndroidX.AppCompat"                  version="1.1.0.1"/>
-        <dependency id="Xamarin.AndroidX.ConstraintLayout"           version="1.1.3.1"/>
-		<dependency id="Xamarin.AndroidX.Arch.Core.Runtime"          version="2.1.0.8"/>
-		<dependency id="Xamarin.AndroidX.DynamicAnimation"           version="1.0.0.7" />
 
-        <dependency id="Xamarin.Google.Android.Material"             version="1.0.0.1"/>
-        <dependency id="Xamarin.AndroidX.Legacy.Support.V4"          version="1.0.0.1"/>
+        <dependency id="Xamarin.AndroidX.Core"                       version="1.3.2.3"/>
+        <dependency id="Xamarin.AndroidX.AppCompat"                  version="1.2.0.7"/>
+        <dependency id="Xamarin.AndroidX.ConstraintLayout"           version="2.0.4.2"/>
+        <dependency id="Xamarin.AndroidX.Arch.Core.Runtime"          version="2.1.0.8"/>
+        <dependency id="Xamarin.AndroidX.DynamicAnimation"           version="1.0.0.7" />
+
+        <dependency id="Xamarin.Google.Android.Material"             version="1.3.0.1"/>
+        <dependency id="Xamarin.AndroidX.Legacy.Support.V4"          version="1.0.0.7"/>
         
         <dependency id="Xamarin.Kotlin.StdLib"                       version="1.4.10"/>
         <dependency id="Xamarin.Kotlin.StdLib.Common"                version="1.4.10"/>
         <dependency id="Xamarin.Kotlin.StdLib.Jdk7"                  version="1.4.10"/>
-        <dependency id="Xamarin.Google.Dagger"                       version="2.25.2.1"/>
-        <dependency id="Square.OkIO"                                 version="2.4.1"/>
+        <dependency id="Xamarin.Google.Dagger"                       version="2.27.0"/>
+        <dependency id="Square.OkIO"                                 version="2.8.0"/>
 
-        <dependency id="Xamarin.Android.ReactiveX.RxAndroid"         version="2.1.1" />
-        <dependency id="Xamarin.Android.ReactiveX.RxJava"            version="2.2.7" />
+        <dependency id="Xamarin.Android.ReactiveX.RxAndroid"         version="2.1.1.1" />
+        <dependency id="Xamarin.Android.ReactiveX.RxJava"            version="2.2.10.1" />
 
       </group>
     </dependencies>
