@@ -3,14 +3,14 @@
 
   <metadata>
     <id>Scanbot.Xamarin.SDK.Dependencies</id>
-    <version>3.4.1-local3</version>
+    <version>3.4.1-beta1</version>
     <title>Scanbot SDK Dependencies</title>
     <description>A collection of dependencies required by Scanbot SDK and Scanbot Barcode Scanner SDK (not meant to be used as a separate NuGet package)</description>
     <authors>Scanbot</authors>
     <owners>Scanbot</owners>
     <projectUrl>https://github.com/doo/xamarin-third-party-android-bindings</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <copyright>Copyright 2020 doo GmbH</copyright>
+    <copyright>Copyright 2022 doo GmbH</copyright>
     <dependencies>
       <group targetFramework="MonoAndroid81">
         <!-- Android and AndroidX dependencies -->
