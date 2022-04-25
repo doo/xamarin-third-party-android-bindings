@@ -46,3 +46,4 @@ Thumbs.db
 temp-android-artifacts/
 
 nuget-dist/
+.vscode/
