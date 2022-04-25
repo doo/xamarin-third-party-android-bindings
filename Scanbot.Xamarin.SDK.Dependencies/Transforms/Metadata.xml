@@ -3,6 +3,9 @@
     <remove-node path="/api/package[starts-with(@name, 'org.apache.commons.io')]" />
     <remove-node path="/api/package[starts-with(@name, 'org.apache.commons.lang')]" />
     <remove-node path="/api/package[starts-with(@name, 'kotlin')]" />
+    <remove-node path="/api/package[starts-with(@name, 'io.reactivex.rxjava3.internal')]" />
+    <remove-node path="/api/package[starts-with(@name, 'io.reactivex.rxjava3.observers')]" />
+    <remove-node path="/api/package[starts-with(@name, 'io.reactivex.rxjava3.subjects')]" />
     <remove-node path="/api/package[starts-with(@name, 'com.squareup.moshi')]" />
     <remove-node path="/api/package[starts-with(@name, 'com.google.gson')]" />
 </metadata>

@@ -3,7 +3,7 @@
 
   <metadata>
     <id>Scanbot.Xamarin.SDK.Dependencies</id>
-    <version>3.3.2</version>
+    <version>3.4.0</version>
     <title>Scanbot SDK Dependencies</title>
     <description>A collection of dependencies required by Scanbot SDK and Scanbot Barcode Scanner SDK (not meant to be used as a separate NuGet package)</description>
     <authors>Scanbot</authors>
@@ -13,26 +13,54 @@
     <copyright>Copyright 2020 doo GmbH</copyright>
     <dependencies>
       <group targetFramework="MonoAndroid81">
+        <!-- Android and AndroidX dependencies -->
+        <dependency id="Xamarin.Android.ReactiveX.RxAndroid" version="2.1.1.1" />
+        <dependency id="Xamarin.Android.ReactiveX.RxJava" version="2.2.10.1" />
+        <dependency id="Xamarin.Android.ReactiveX.RxJava3.RxJava" version="3.0.1.1" />
+        <dependency id="Xamarin.Android.JetBrains.Kotlin_Android_Extensions_Runtime" version="1.5.20.1" />
+        <dependency id="Xamarin.Android.JetBrains.Kotlin_Parcelize_Runtime" version="1.5.20.1" />
+        <dependency id="Xamarin.AndroidX.Activity.Ktx" version="1.2.2" />
+        <dependency id="Xamarin.AndroidX.Collection.Ktx" version="1.1.0" />
+        <dependency id="Xamarin.AndroidX.Fragment.Ktx" version="1.3.3" /> 
+        <dependency id="Xamarin.AndroidX.Core" version="1.3.2.3" />
+        <dependency id="Xamarin.AndroidX.AppCompat" version="1.2.0.7" />
+        <dependency id="Xamarin.AndroidX.ConstraintLayout" version="2.0.4.2" />
+        <dependency id="Xamarin.AndroidX.Arch.Core.Runtime" version="2.1.0.8" />
+        <dependency id="Xamarin.AndroidX.DynamicAnimation" version="1.0.0.7" />
+        <dependency id="Xamarin.AndroidX.DataBinding.ViewBinding" version="4.2.1" />
+        <dependency id="Xamarin.AndroidX.Legacy.Support.V4" version="1.0.0.7" />
+        <dependency id="Xamarin.AndroidX.Core.Core.Ktx" version="1.5.0" />
+        <!-- Android X Camera (v1.0.2) and required AndroidX dependencies -->
+        <dependency id="Xamarin.AndroidX.Camera.Core" version="1.0.2"/>
+        <dependency id="Xamarin.AndroidX.Camera.Camera2" version="1.0.2"/>
+        <dependency id="Xamarin.AndroidX.Camera.Lifecycle" version="1.0.2"/>
+        <dependency id="Xamarin.AndroidX.Camera.View" version="1.0.0.5-alpha20"/>
+        <dependency id="Xamarin.AndroidX.SwipeRefreshLayout" version="1.0.0.5"/>
 
-        <dependency id="Xamarin.AndroidX.Core"                       version="1.3.2.3"/>
-        <dependency id="Xamarin.AndroidX.AppCompat"                  version="1.2.0.7"/>
-        <dependency id="Xamarin.AndroidX.ConstraintLayout"           version="2.0.4.2"/>
-        <dependency id="Xamarin.AndroidX.Arch.Core.Runtime"          version="2.1.0.8"/>
-        <dependency id="Xamarin.AndroidX.DynamicAnimation"           version="1.0.0.7"/>
-        <dependency id="Xamarin.AndroidX.DataBinding.ViewBinding"    version="4.2.1"  />
+        <!-- AndroidX: Lifecycle -->
+        <dependency id="Xamarin.AndroidX.Lifecycle.Common" version="2.3.1" />
+        <dependency id="Xamarin.AndroidX.Lifecycle.ViewModel.Ktx" version="2.3.1" />
+        <dependency id="Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx" version="2.3.1" />
+        <dependency id="Xamarin.AndroidX.Lifecycle.Process" version="2.2.0" />
+        <dependency id="Xamarin.AndroidX.Lifecycle.Service" version="2.2.0" />
+        <dependency id="Xamarin.AndroidX.Lifecycle.Extensions" version="2.2.0" />
+        <!-- Kotlin Standard Library (v1.5.20) -->
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.5.20" />
+        <dependency id="Xamarin.Kotlin.StdLib.Common" version="1.5.20" />
+        <dependency id="Xamarin.Kotlin.StdLib.Jdk7" version="1.5.20" />
+        <dependency id="Xamarin.Kotlin.StdLib.Jdk8" version="1.5.20" /> 
+        <!-- Kotlin Coroutines (v1.5.1) -->
+        <dependency id="Xamarin.KotlinX.Coroutines.Core" version="1.5.1" />
+        <dependency id="Xamarin.KotlinX.Coroutines.Core.Jvm" version="1.5.1" />
+        <dependency id="Xamarin.KotlinX.Coroutines.Android" version="1.5.1" />
+        <dependency id="Xamarin.KotlinX.Coroutines.Reactive" version="1.5.1" />
 
-        <dependency id="Xamarin.Google.Android.Material"             version="1.3.0.1"/>
-        <dependency id="Xamarin.AndroidX.Legacy.Support.V4"          version="1.0.0.7"/>
-        
-        <dependency id="Xamarin.Kotlin.StdLib"                       version="1.4.20" />
-        <dependency id="Xamarin.Kotlin.StdLib.Common"                version="1.4.20" />
-        <dependency id="Xamarin.Kotlin.StdLib.Jdk7"                  version="1.4.20" />
-        <dependency id="Xamarin.Google.Dagger"                       version="2.37.0" />
-        <dependency id="Square.OkIO"                                 version="2.8.0"  />
+        <!-- kotlinx-coroutines-rx3-1.5.1 N/A: Added as JAR in Scanbot.Xamarin.SDK.Dependencies project --> 
 
-        <dependency id="Xamarin.Android.ReactiveX.RxAndroid"         version="2.1.1.1" />
-        <dependency id="Xamarin.Android.ReactiveX.RxJava"            version="2.2.10.1"/>
-
+        <!-- Other dependencies-->
+        <dependency id="Xamarin.Google.Dagger" version="2.37.0" />
+        <dependency id="Xamarin.Google.Android.Material" version="1.3.0.1" />
+        <dependency id="Square.OkIO" version="2.8.0" />
       </group>
     </dependencies>
   </metadata>
