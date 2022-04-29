@@ -1,7 +1,4 @@
 
-
-import argparse
-
 from lib import nufetch_wrapper as NuFetch
 from lib.nuspec_helper import NuspecBigBoy
 from lib.logging_utils import print_dictionary, print_error, print_success, print_bold
@@ -13,35 +10,6 @@ NUSPEC_PATH = "Scanbot.Xamarin.SDK.Dependencies/Scanbot.Xamarin.SDK.Dependencies
 # ---------------------------------------------------------------
 #                             MAIN
 # ---------------------------------------------------------------
-
-parser = argparse.ArgumentParser(
-    description = 'Verifies the compatibility between the .nuspec packages and the current Xamarin Forms version'
-)
-
-parser = argparse.ArgumentParser()
-
-parser.add_argument(
-    '-p',
-    '--package-name',
-    required = True,
-    action = 'store', 
-    type = str, 
-    help = "The identifier (name) of the package to verify the compatibility with."
-)
-
-parser.add_argument(
-    '-v',
-    '--package-version',
-    required = True,
-    action = 'store', 
-    type = str, 
-    help = "The identifier (name) of the package to verify the compatibility with."
-)
-
-args = parser.parse_args()
-
-print(f"\nComparing the following package to Xamarin Forms v{XAMARIN_FORMS_VERSION}:")
-print(f"\nPackage Name: {args.package_name}; Version: {args.package_version}\n")
 
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-> 
 # 1) Retrieve the dependency tree for the version of Xamarin Forms specified on top of this script
