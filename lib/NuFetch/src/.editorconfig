@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0008: Use explicit type
+dotnet_diagnostic.IDE0008.severity = none
+
+# IDE0019: Use pattern matching
+csharp_style_pattern_matching_over_as_with_null_check = false

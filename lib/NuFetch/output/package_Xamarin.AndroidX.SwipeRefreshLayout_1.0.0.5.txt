@@ -1,0 +1,11 @@
+Xamarin.AndroidX.Annotation@1.1.0.6
+Xamarin.AndroidX.Arch.Core.Common@2.1.0.6
+Xamarin.AndroidX.Collection@1.1.0.5
+Xamarin.AndroidX.Core@1.3.0.3
+Xamarin.AndroidX.Interpolator@1.0.0.5
+Xamarin.AndroidX.Lifecycle.Common@2.2.0.3
+Xamarin.AndroidX.Lifecycle.Runtime@2.2.0.3
+Xamarin.AndroidX.Migration@1.0.7.1
+Xamarin.AndroidX.MultiDex@2.0.1.4
+Xamarin.AndroidX.SwipeRefreshLayout@1.0.0.5
+Xamarin.AndroidX.VersionedParcelable@1.1.1.5
