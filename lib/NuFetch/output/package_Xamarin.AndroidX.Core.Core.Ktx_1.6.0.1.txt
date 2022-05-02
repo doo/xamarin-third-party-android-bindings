@@ -1,0 +1,15 @@
+Xamarin.AndroidX.Annotation@1.2.0.1
+Xamarin.AndroidX.Annotation.Experimental@1.1.0.1
+Xamarin.AndroidX.Arch.Core.Common@2.1.0.9
+Xamarin.AndroidX.Arch.Core.Runtime@2.1.0.9
+Xamarin.AndroidX.Collection@1.1.0.8
+Xamarin.AndroidX.Core@1.6.0.1
+Xamarin.AndroidX.Core.Core.Ktx@1.6.0.1
+Xamarin.AndroidX.Lifecycle.Common@2.3.1.1
+Xamarin.AndroidX.Lifecycle.Runtime@2.3.1.2
+Xamarin.AndroidX.Migration@1.0.8
+Xamarin.AndroidX.MultiDex@2.0.1.5
+Xamarin.AndroidX.VersionedParcelable@1.1.1.8
+Xamarin.Jetbrains.Annotations@13.0.0.4
+Xamarin.Kotlin.StdLib@1.5.10
+Xamarin.Kotlin.StdLib.Common@1.5.10
