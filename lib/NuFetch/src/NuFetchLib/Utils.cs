@@ -104,8 +104,7 @@ namespace NuFetchLib {
 
             if (package == null)
             {
-                Console.WriteLine($"Package '{packageId} {packageVersion}' could not be found in the repository '{sourceServer}', or it could be converted as DataServicePackage");
-                return null;
+                throw new ArgumentException($"Package '{packageId} {packageVersion}' could not be found in the repository '{sourceServer}', or it could not be casted to DataServicePackage");
             }
 
             var outDictionary = new Dictionary<string, string>

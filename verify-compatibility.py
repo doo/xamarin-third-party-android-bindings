@@ -1,11 +1,17 @@
 
+from datetime import datetime
+import json
+import os
+from sqlite3 import Date
 from lib import nufetch_wrapper as NuFetch
 from lib.nuspec_helper import NuspecBigBoy
-from lib.logging_utils import print_dictionary, print_error, print_success, print_bold
+from lib.logging_utils import print_big_bad_bold_error, print_big_boy_warning, print_error, print_success, print_bold, print_warning
 from tqdm import tqdm
 
 XAMARIN_FORMS_VERSION = '5.0.0.2401'
 NUSPEC_PATH = "Scanbot.Xamarin.SDK.Dependencies/Scanbot.Xamarin.SDK.Dependencies.nuspec"
+REPORT_FILE_NAME = 'compatibility_report'
+REPORT_FILE_PATH = '' # Project Directory
 
 # ---------------------------------------------------------------
 #                             MAIN
@@ -97,22 +103,49 @@ for package in nuspec_transient_dependencies:
 
 # Print the results
 any_errors = False
-
+lines = []
 for package in nuspec_transient_dependencies:
     package_report = compatibility_report[package]
     print_bold(f"\nCompatibility for {package}:\n")
+
     if len(package_report) > 0:
+        lines.append(f"\n\nCompatibility report for {package}:\n")
         for report in package_report:
             any_errors = True
-            print_error(f'\n  {report}')
+            if '*' in report:
+                print_big_bad_bold_error(f'\n  {report}')
+            else:
+                print_warning(f'\n  {report}')
+            lines.append(f'\n  {report}')
         print()
     else:
         print_success(f"  > {package} is compatible with Xamarin Forms v{XAMARIN_FORMS_VERSION}!")
 
-print("\n\n")
+print("\n")
 if any_errors:
-    print_error(f"The compatibility check failed with {main_conflicts_count} main dependency errors and {transient_conflicts_count} transient dependencies errors.\nUse the report to address the issues.")
+    if main_conflicts_count == 0:
+        print_big_boy_warning(f"The compatibility check passed, but with {transient_conflicts_count} transient dependencies conflicts that you should take a look at.")
+    else:
+        print_error(f"The compatibility check failed with {main_conflicts_count} main dependency errors and {transient_conflicts_count} transient dependencies errors.\nUse the report to address the issues.")
+    
+    now = datetime.now()
+    
+    line_timestamp = now.strftime("%Y-%m-%d %H:%M:%S %z")
+    lines.insert(0, f'with Xamarin Forms version v{XAMARIN_FORMS_VERSION} and .nuspec packages:\n' +  
+        json.dumps(nuspec_dependencies, sort_keys=False, indent=4) + "\n"
+    )
+    lines.insert(0, f'Report made at {line_timestamp}')
+
+    file_timestamp = now.strftime("%Y_%m_%d-%I_%M_%S_%p")
+    report_file_name = f'{REPORT_FILE_NAME}_{file_timestamp}.txt'
+    report_file_path = os.path.join(REPORT_FILE_PATH, report_file_name)
+
+    with open(report_file_path, 'w+') as f:
+        f.writelines(lines)
+    
+    print_bold(f"\nThe report has been saved in {report_file_path}.\n")
+
 else:
     print_success("The compatibility check ended with SUCCESS!\nGo ahead and spread this Xamarin disease everywhere!")
 
-print("\nDone.\n")
+print("Done.\n")

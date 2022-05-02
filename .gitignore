@@ -47,3 +47,5 @@ temp-android-artifacts/
 
 nuget-dist/
 .vscode/
+lib/__pycache__
+compatibility_report_**.txt
