@@ -73,7 +73,7 @@ def check_compatibility(packageName, packageVersion, is_transient=True):
     if forms_version != packageVersion:
         symbol = '-' if is_transient else '*'
         type = 'transient' if is_transient else 'MAIN'
-        return f"{symbol} {type} dependency {packageName} v{packageVersion} conflict: {packageName} v{forms_version}"
+        return f"{symbol} {type} dependency {packageName} v{packageVersion} conflict: {packageName} v{forms_version}", is_transient
 
 # The format will be 'package@version': [ reports ]
 compatibility_report = {}
@@ -110,9 +110,9 @@ for package in nuspec_transient_dependencies:
 
     if len(package_report) > 0:
         lines.append(f"\n\nCompatibility report for {package}:\n")
-        for report in package_report:
+        for report, is_transient in package_report:
             any_errors = True
-            if '*' in report:
+            if not is_transient:
                 print_big_bad_bold_error(f'\n  {report}')
             else:
                 print_warning(f'\n  {report}')
@@ -127,7 +127,13 @@ if any_errors:
         print_big_boy_warning(f"The compatibility check passed, but with {transient_conflicts_count} transient dependencies conflicts that you should take a look at.")
     else:
         print_error(f"The compatibility check failed with {main_conflicts_count} main dependency errors and {transient_conflicts_count} transient dependencies errors.\nUse the report to address the issues.")
-    
+        print_big_bad_bold_error("\nMain Problems:\n")
+        for package_key in compatibility_report:
+            for report, is_transient in compatibility_report[package_key]:
+                if not is_transient:
+                    print_error(report)
+            
+                
     now = datetime.now()
     
     line_timestamp = now.strftime("%Y-%m-%d %H:%M:%S %z")
