@@ -1,0 +1,4 @@
+Xamarin.AndroidX.Annotation@1.2.0.1
+Xamarin.AndroidX.Lifecycle.Common@2.3.1.1
+Xamarin.AndroidX.Migration@1.0.8
+Xamarin.AndroidX.MultiDex@2.0.1.5

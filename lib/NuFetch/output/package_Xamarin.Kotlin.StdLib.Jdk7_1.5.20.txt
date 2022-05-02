@@ -1,0 +1,4 @@
+Xamarin.Jetbrains.Annotations@13.0.0.4
+Xamarin.Kotlin.StdLib@1.5.20
+Xamarin.Kotlin.StdLib.Common@1.5.20
+Xamarin.Kotlin.StdLib.Jdk7@1.5.20
