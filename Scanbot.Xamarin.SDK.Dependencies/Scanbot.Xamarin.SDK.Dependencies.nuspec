@@ -3,7 +3,7 @@
 
   <metadata>
     <id>Scanbot.Xamarin.SDK.Dependencies</id>
-    <version>3.4.1-beta4-local8</version>
+    <version>3.4.1-beta4</version>
     <title>Scanbot SDK Dependencies</title>
     <description>A collection of dependencies required by Scanbot SDK and Scanbot Barcode Scanner SDK (not meant to be used as a separate NuGet package)</description>
     <authors>Scanbot</authors>
@@ -14,8 +14,8 @@
     <dependencies>
       <group targetFramework="MonoAndroid81">
         <!-- Android and AndroidX dependencies -->
-        <dependency id="Xamarin.AndroidX.Annotation.Experimental" version="1.1.0.3" include="All" />
-        <dependency id="Xamarin.AndroidX.Annotation" version="1.2.0.3" include="All" />
+        <dependency id="Xamarin.AndroidX.Annotation.Experimental" version="1.1.0.3"/>
+        <dependency id="Xamarin.AndroidX.Annotation" version="1.2.0.3"/>
         <dependency id="Xamarin.Android.ReactiveX.RxAndroid" version="2.1.1.1" />
         <dependency id="Xamarin.Android.ReactiveX.RxJava" version="2.2.10.1" />
         <dependency id="Xamarin.Android.ReactiveX.RxJava3.RxJava" version="3.0.1.1" />
@@ -53,10 +53,11 @@
         <dependency id="Xamarin.AndroidX.Lifecycle.Runtime.Ktx" version="2.3.1.2" />
 
         <!-- Kotlin Standard Library (v1.5.20) -->
-        <dependency id="Xamarin.Kotlin.StdLib" version="1.5.31.2" />
-        <dependency id="Xamarin.Kotlin.StdLib.Common" version="1.5.31.2" />
-        <dependency id="Xamarin.Kotlin.StdLib.Jdk7" version="1.5.31.1" />
-        <dependency id="Xamarin.Kotlin.StdLib.Jdk8" version="1.5.31.1" /> 
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.5.20" />
+        <dependency id="Xamarin.Kotlin.StdLib.Common" version="1.5.20" />
+        <dependency id="Xamarin.Kotlin.StdLib.Jdk7" version="1.5.20" />
+        <dependency id="Xamarin.Kotlin.StdLib.Jdk8" version="1.5.20" /> 
+
         <!-- Kotlin Coroutines (v1.5.1) -->
         <dependency id="Xamarin.KotlinX.Coroutines.Core" version="1.5.2.2" />
         <dependency id="Xamarin.KotlinX.Coroutines.Core.Jvm" version="1.5.2.2" />

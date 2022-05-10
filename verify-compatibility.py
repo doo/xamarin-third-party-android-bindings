@@ -7,11 +7,13 @@ from lib import nufetch_wrapper as NuFetch
 from lib.nuspec_helper import NuspecBigBoy
 from lib.logging_utils import print_big_bad_bold_error, print_big_boy_warning, print_error, print_success, print_bold, print_warning
 from tqdm import tqdm
+from packaging.version import parse as parse_version
 
 XAMARIN_FORMS_VERSION = '5.0.0.2401'
+ONLY_CHECK_DOWNGRADES = True
 NUSPEC_PATH = "Scanbot.Xamarin.SDK.Dependencies/Scanbot.Xamarin.SDK.Dependencies.nuspec"
 REPORT_FILE_NAME = 'compatibility_report'
-REPORT_FILE_PATH = '' # Project Directory
+REPORT_FILE_PATH = 'reports'
 
 # ---------------------------------------------------------------
 #                             MAIN
@@ -65,15 +67,21 @@ print_success(f"\nNuspec dependencies FETCHED correctly!\n")
 #    match but have different versions
 # ->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->->-> 
 
-def check_compatibility(packageName, packageVersion, is_transient=True):
-    if packageName not in forms_dependencies:
+def check_compatibility(package_name, package_version, is_transient=True):
+    if package_name not in forms_dependencies:
         return None
-    forms_version = forms_dependencies[packageName]
+    forms_version = forms_dependencies[package_name]
 
-    if forms_version != packageVersion:
+    parsed_forms_version = parse_version(forms_version)
+    parsed_package_version = parse_version(package_version)
+
+    if parsed_forms_version != parsed_package_version:
+        if parsed_forms_version < parsed_package_version and ONLY_CHECK_DOWNGRADES:
+            return None
+
         symbol = '-' if is_transient else '*'
         type = 'transient' if is_transient else 'MAIN'
-        return f"{symbol} {type} dependency {packageName} v{packageVersion} conflict: {packageName} v{forms_version}", is_transient
+        return f"{symbol} {type} dependency {package_name} v{package_version} conflict: {package_name} v{forms_version}", is_transient
 
 # The format will be 'package@version': [ reports ]
 compatibility_report = {}
@@ -87,7 +95,7 @@ for package in nuspec_transient_dependencies:
     parts = package.split('@')
     name = parts[0]
     version = parts[1]
-    report = check_compatibility(packageName=name, packageVersion=version, is_transient=False)
+    report = check_compatibility(package_name=name, package_version=version, is_transient=False)
     if report is not None:
         main_conflicts_count += 1
         compatibility_report[package].append(report)
@@ -96,7 +104,7 @@ for package in nuspec_transient_dependencies:
     package_dependencies = nuspec_transient_dependencies[package]
     for dependency_name in package_dependencies:
         dependency_version = package_dependencies[dependency_name]
-        report = check_compatibility(packageName=dependency_name, packageVersion=dependency_version)
+        report = check_compatibility(package_name=dependency_name, package_version=dependency_version)
         if report is not None:
             transient_conflicts_count += 1
             compatibility_report[package].append(report)
