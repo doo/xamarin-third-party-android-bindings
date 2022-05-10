@@ -11,7 +11,6 @@
 # @ Some Rights Reserved @
 #
 
-import subprocess
 import os
 from sys import stderr
 import time
