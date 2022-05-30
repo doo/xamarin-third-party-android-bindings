@@ -1,0 +1,4 @@
+Square.OkIO@2.8.0
+Xamarin.Jetbrains.Annotations@13.0.0.2
+Xamarin.Kotlin.StdLib@1.4.0
+Xamarin.Kotlin.StdLib.Common@1.4.0

@@ -1,0 +1,3 @@
+Xamarin.Android.ReactiveStreams@1.0.3
+Xamarin.Android.ReactiveX.RxAndroid@2.1.1.1
+Xamarin.Android.ReactiveX.RxJava@2.2.10
