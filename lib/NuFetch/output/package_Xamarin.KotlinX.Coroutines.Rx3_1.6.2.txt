@@ -1,0 +1,10 @@
+Xamarin.Android.ReactiveStreams@1.0.4.1
+Xamarin.Android.ReactiveX.RxJava3.RxJava@3.1.5.1
+Xamarin.Jetbrains.Annotations@23.0.0.4
+Xamarin.Kotlin.StdLib@1.7.10
+Xamarin.Kotlin.StdLib.Common@1.7.10
+Xamarin.Kotlin.StdLib.Jdk7@1.7.10
+Xamarin.Kotlin.StdLib.Jdk8@1.7.10
+Xamarin.KotlinX.Coroutines.Core.Jvm@1.6.4
+Xamarin.KotlinX.Coroutines.Reactive@1.6.4
+Xamarin.KotlinX.Coroutines.Rx3@1.6.2
