@@ -3,7 +3,7 @@
 
   <metadata>
     <id>Scanbot.Xamarin.SDK.Dependencies</id>
-    <version>3.5.0</version>
+    <version>3.5.1</version>
     <title>Scanbot SDK Dependencies</title>
     <description>A collection of dependencies required by Scanbot SDK and Scanbot Barcode Scanner SDK (not meant to be used as a separate NuGet package)</description>
     <authors>Scanbot</authors>
@@ -35,9 +35,9 @@
         <dependency id="Xamarin.AndroidX.Core.Core.Ktx" version="1.6.0.3" />
 
         <!-- Android X Camera (v1.0.2) and required AndroidX dependencies -->
-        <dependency id="Xamarin.AndroidX.Camera.Core" version="1.1.0"/>
-        <dependency id="Xamarin.AndroidX.Camera.Camera2" version="1.1.0"/>
-        <dependency id="Xamarin.AndroidX.Camera.Lifecycle" version="1.1.0"/>
+        <dependency id="Xamarin.AndroidX.Camera.Core" version="1.0.2"/>
+        <dependency id="Xamarin.AndroidX.Camera.Camera2" version="1.0.2"/>
+        <dependency id="Xamarin.AndroidX.Camera.Lifecycle" version="1.0.2"/>
         <dependency id="Xamarin.AndroidX.Camera.View" version="1.1.0"/>
 
         <!-- AndroidX: Lifecycle -->
@@ -91,10 +91,10 @@
         <dependency id="Xamarin.AndroidX.Core.Core.Ktx" version="1.6.0.3" />
 
         <!-- Android X Camera (v1.0.2) and required AndroidX dependencies -->
-        <dependency id="Xamarin.AndroidX.Camera.Core" version="1.1.0"/>
-        <dependency id="Xamarin.AndroidX.Camera.Camera2" version="1.1.0"/>
-        <dependency id="Xamarin.AndroidX.Camera.Lifecycle" version="1.1.0"/>
-        <dependency id="Xamarin.AndroidX.Camera.View" version="1.1.0"/>
+        <dependency id="Xamarin.AndroidX.Camera.Core" version="1.0.2.5"/>
+        <dependency id="Xamarin.AndroidX.Camera.Camera2" version="1.0.2.5"/>
+        <dependency id="Xamarin.AndroidX.Camera.Lifecycle" version="1.0.2.5"/>
+        <dependency id="Xamarin.AndroidX.Camera.View" version="1.0.2.5"/>
 
         <!-- AndroidX: Lifecycle -->
         <dependency id="Xamarin.AndroidX.Lifecycle.Common" version="2.3.1.3" />
