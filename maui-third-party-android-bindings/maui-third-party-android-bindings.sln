@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.MAUI.SDK.Dependencies", "Scanbot.MAUI.SDK.Dependencies\Scanbot.MAUI.SDK.Dependencies.csproj", "{D3906201-BBD1-49FD-8138-55AD089FCCA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.MAUI.ApwLibrary", "Scanbot.MAUI.ApwLibrary\Scanbot.MAUI.ApwLibrary.csproj", "{C6D9BC1C-B148-4042-80FA-527064F776F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3906201-BBD1-49FD-8138-55AD089FCCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3906201-BBD1-49FD-8138-55AD089FCCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3906201-BBD1-49FD-8138-55AD089FCCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3906201-BBD1-49FD-8138-55AD089FCCA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D9BC1C-B148-4042-80FA-527064F776F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D9BC1C-B148-4042-80FA-527064F776F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D9BC1C-B148-4042-80FA-527064F776F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D9BC1C-B148-4042-80FA-527064F776F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24E0C05D-49DA-4A20-AF4E-BEB74765B8A1}
+	EndGlobalSection
+EndGlobal

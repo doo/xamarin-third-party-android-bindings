@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Jars\apwlibrary-1.0.9.aar" Pack="True" PackagePath="aar" />
+    <None Include="Targets.targets" Pack="True" PackagePath="build\$(TargetFramework)\$(PackageId).targets" />
+    <None Include="Targets.targets" Pack="True" PackagePath="buildTransitive\$(TargetFramework)\$(PackageId).targets" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+      <InputJar Include="Jars/commons-io-2.4.jar" />
+      <InputJar Include="Jars/commons-lang-2.6.jar" />
+      <InputJar Include="Jars/gson-2.8.5.jar" />
+      <InputJar Include="Jars/kotlin-android-extensions-runtime-1.6.21.jar" />
+      <InputJar Include="Jars/kotlin-parcelize-runtime-1.6.21.jar" />
+      <InputJar Include="Jars/kotlin-reflect-1.2.71.jar" />
+  </ItemGroup>
+</Project>

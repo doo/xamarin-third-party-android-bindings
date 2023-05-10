@@ -1,23 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdLib", "Scanbot.Xamarin.Kotlin.StdLib\Scanbot.Xamarin.Kotlin.StdLib.csproj", "{05D52CF4-7F2A-4B9E-AE36-A1C24C12248D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdLib.Jre7", "Scanbot.Xamarin.Kotlin.StdLib.Jre7\Scanbot.Xamarin.Kotlin.StdLib.Jre7.csproj", "{8AA7DE09-A175-4621-B5E4-CA6C90514CAC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdLib.Jre8", "Scanbot.Xamarin.Kotlin.StdLib.Jre8\Scanbot.Xamarin.Kotlin.StdLib.Jre8.csproj", "{534D40CA-DC39-48B0-963C-301F8BD12006}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdLib.Common", "Scanbot.Xamarin.Kotlin.StdLib.Common\Scanbot.Xamarin.Kotlin.StdLib.Common.csproj", "{4FDCE371-2F29-4BA4-8BC8-523A8345020A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.JetBrains.Java.Annotations", "Scanbot.Xamarin.JetBrains.Java.Annotations\Scanbot.Xamarin.JetBrains.Java.Annotations.csproj", "{904C1355-8463-47D2-9537-52E67F549571}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdLib.Jdk7", "Scanbot.Xamarin.Kotlin.StdLib.Jdk7\Scanbot.Xamarin.Kotlin.StdLib.Jdk7.csproj", "{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.Kotlin.StdLib.Jdk8", "Scanbot.Xamarin.Kotlin.StdLib.Jdk8\Scanbot.Xamarin.Kotlin.StdLib.Jdk8.csproj", "{46D75F3C-4940-4136-9822-A3878EF36F8A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.SDK.Dependencies", "Scanbot.Xamarin.SDK.Dependencies\Scanbot.Xamarin.SDK.Dependencies.csproj", "{8AE48B58-9216-4CFA-AF86-F7F374104196}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.Xamarin.ApwLibrary", "Scanbot.Xamarin.ApwLibrary\Scanbot.Xamarin.ApwLibrary.csproj", "{6CE3BF18-C124-431C-BD3E-ECF202956934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanbot.MAUI.SDK.Dependencies", "Scanbot.MAUI.SDK.Dependencies\Scanbot.MAUI.SDK.Dependencies.csproj", "{66F7E013-B86B-447E-A5ED-939946EF784C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,34 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{05D52CF4-7F2A-4B9E-AE36-A1C24C12248D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05D52CF4-7F2A-4B9E-AE36-A1C24C12248D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05D52CF4-7F2A-4B9E-AE36-A1C24C12248D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05D52CF4-7F2A-4B9E-AE36-A1C24C12248D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8AA7DE09-A175-4621-B5E4-CA6C90514CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AA7DE09-A175-4621-B5E4-CA6C90514CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AA7DE09-A175-4621-B5E4-CA6C90514CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AA7DE09-A175-4621-B5E4-CA6C90514CAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{534D40CA-DC39-48B0-963C-301F8BD12006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{534D40CA-DC39-48B0-963C-301F8BD12006}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{534D40CA-DC39-48B0-963C-301F8BD12006}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{534D40CA-DC39-48B0-963C-301F8BD12006}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4FDCE371-2F29-4BA4-8BC8-523A8345020A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FDCE371-2F29-4BA4-8BC8-523A8345020A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FDCE371-2F29-4BA4-8BC8-523A8345020A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FDCE371-2F29-4BA4-8BC8-523A8345020A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{904C1355-8463-47D2-9537-52E67F549571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{904C1355-8463-47D2-9537-52E67F549571}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{904C1355-8463-47D2-9537-52E67F549571}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{904C1355-8463-47D2-9537-52E67F549571}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6E997F8-3875-4E3A-A55F-E8DCDAE0990B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46D75F3C-4940-4136-9822-A3878EF36F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46D75F3C-4940-4136-9822-A3878EF36F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46D75F3C-4940-4136-9822-A3878EF36F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46D75F3C-4940-4136-9822-A3878EF36F8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8AE48B58-9216-4CFA-AF86-F7F374104196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8AE48B58-9216-4CFA-AF86-F7F374104196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE48B58-9216-4CFA-AF86-F7F374104196}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,5 +21,9 @@ Global
 		{6CE3BF18-C124-431C-BD3E-ECF202956934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CE3BF18-C124-431C-BD3E-ECF202956934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CE3BF18-C124-431C-BD3E-ECF202956934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F7E013-B86B-447E-A5ED-939946EF784C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F7E013-B86B-447E-A5ED-939946EF784C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F7E013-B86B-447E-A5ED-939946EF784C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F7E013-B86B-447E-A5ED-939946EF784C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
