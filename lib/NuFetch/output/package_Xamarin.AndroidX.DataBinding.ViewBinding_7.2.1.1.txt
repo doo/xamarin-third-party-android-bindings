@@ -1,0 +1,4 @@
+Xamarin.AndroidX.Annotation@1.3.0.4
+Xamarin.AndroidX.DataBinding.ViewBinding@7.2.1.1
+Xamarin.AndroidX.Migration@1.0.10
+Xamarin.AndroidX.MultiDex@2.0.1.13
