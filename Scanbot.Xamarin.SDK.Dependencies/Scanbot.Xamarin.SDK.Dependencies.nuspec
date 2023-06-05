@@ -65,7 +65,7 @@
                 <!-- Other dependencies-->
                 <dependency id="Xamarin.Google.Dagger" version="2.44.2" include="All" />
                 <dependency id="Xamarin.Google.Android.Material" version="1.7.0.1" include="All" />
-                <dependency id="Square.OkIO" version="2.10.0.5" include="All" />
+                <dependency id="Square.OkIO.JVM" version="3.0.0.1" />
             </group>
             
             <group targetFramework="net7.0-android31.0">
