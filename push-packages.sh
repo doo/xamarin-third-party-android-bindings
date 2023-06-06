@@ -5,7 +5,7 @@ if [ -z "$API_KEY" ]; then
     exit 1;
 fi
 
-PACKAGES=$(find nuget-dist/Scanbot.Xamarin.*)
+PACKAGES=$(find nuget-dist/Scanbot.NET.*)
 
 echo
 echo "Found packages:"
