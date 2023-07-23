@@ -2,7 +2,7 @@
 <package>
     <metadata>
         <id>Scanbot.NET.SDK.Dependencies</id>
-        <version>1.0.0-beta.2</version>
+        <version>1.0.0-beta.3</version>
         <title>Scanbot SDK Dependencies</title>
         <description>A collection of dependencies required by Scanbot SDK and Scanbot Barcode Scanner SDK (not meant to be used as a separate NuGet package)</description>
         <authors>Scanbot</authors>
@@ -66,8 +66,10 @@
                 <dependency id="Xamarin.Google.Dagger" version="2.44.2" include="All" />
                 <dependency id="Xamarin.Google.Android.Material" version="1.7.0.1" include="All" />
                 <dependency id="Square.OkIO.JVM" version="3.0.0.1" />
+                <dependency id="Xamarin.AndroidX.Security.SecurityCrypto" version="1.1.0-alpha03" />
+                <dependency id="GoogleGson" version="2.9.1.1" include="All" />
             </group>
-            
+            <!--MAUI-->
             <group targetFramework="net7.0-android31.0">
                 <dependency id="Xamarin.AndroidX.Lifecycle.Runtime.Ktx" version="2.6.1.1" include="All" />
                 <dependency id="Xamarin.AndroidX.Lifecycle.ViewModel.Ktx" version="2.6.1.1" include="All" />
@@ -84,6 +86,7 @@
                 <dependency id="Xamarin.AndroidX.Activity" version="1.6.1" include="All" />
                 <dependency id="Xamarin.AndroidX.Activity.Ktx" version="1.6.1" include="All" />
                 <dependency id="Xamarin.Google.Android.Material" version="1.4.0" include="All" />
+                <dependency id="Xamarin.AndroidX.Security.SecurityCrypto" version="1.1.0-alpha03" include="All" />       
             </group>
         </dependencies>
     </metadata>
