@@ -1,4 +1,11 @@
 
+## CHANGES for Scanbot.NET.SDK.Dependencies.1.0.0-beta.4 1.0.0-beta.4
+
+- ⚙  Changes:
+
+  - Targeting .NET
+  - Added support for Android 13
+
 
 ## CHANGES for Scanbot.Xamarin.SDK.Dependencies v3.4.1
 

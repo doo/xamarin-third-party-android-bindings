@@ -11,7 +11,7 @@ from packaging.version import parse as parse_version
 
 XAMARIN_FORMS_VERSION = '5.0.0.2401'
 ONLY_CHECK_DOWNGRADES = True
-NUSPEC_PATH = "Scanbot.Xamarin.SDK.Dependencies/Scanbot.Xamarin.SDK.Dependencies.nuspec"
+NUSPEC_PATH = "Scanbot.Xamarin.SDK.Dependencies.nuspec"
 REPORT_FILE_NAME = 'compatibility_report'
 REPORT_FILE_PATH = 'reports'
 
