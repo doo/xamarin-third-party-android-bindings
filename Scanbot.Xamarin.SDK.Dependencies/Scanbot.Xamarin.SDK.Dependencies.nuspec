@@ -3,7 +3,7 @@
 
   <metadata>
     <id>Scanbot.Xamarin.SDK.Dependencies</id>
-    <version>3.4.1-beta4</version>
+    <version>3.4.2-beta.1</version>
     <title>Scanbot SDK Dependencies</title>
     <description>A collection of dependencies required by Scanbot SDK and Scanbot Barcode Scanner SDK (not meant to be used as a separate NuGet package)</description>
     <authors>Scanbot</authors>
@@ -69,6 +69,7 @@
         <!-- Other dependencies-->
         <dependency id="Xamarin.Google.Dagger" version="2.37.0" />
         <dependency id="Xamarin.Google.Android.Material" version="1.4.0.4" />
+        <dependency id="GoogleGson" version="2.8.5" />
         <dependency id="Square.OkIO" version="2.8.0" />
       </group>
     </dependencies>

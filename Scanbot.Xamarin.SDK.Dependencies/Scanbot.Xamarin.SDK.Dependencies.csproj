@@ -58,7 +58,6 @@
     <EmbeddedJar Include="Jars\javax.inject-1.jar" />
     <EmbeddedJar Include="Jars\kotlin-reflect-1.2.71.jar" />
     <EmbeddedJar Include="Jars\commons-lang-2.6.jar" />
-    <EmbeddedJar Include="Jars\gson-2.8.5.jar" />
     <EmbeddedJar Include="Jars\kotlinx-coroutines-rx3-1.5.1.jar" />
   </ItemGroup>
   <ItemGroup>
